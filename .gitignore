@@ -1,0 +1,16 @@
+node_modules/
+/test-results/
+/playwright-report/
+/playwright/.cache/
+.cache/
+.vscode
+.idea
+.DS_Store
+*.swp
+*.pyc
+.local-browsers/
+allure*
+.trace
+.tmp
+yarn.lock
+.eslintcache
