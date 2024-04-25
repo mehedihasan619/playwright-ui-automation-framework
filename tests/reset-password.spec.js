@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import * as URLs from '../utils/constants.js';
+import * as URLs from '../utils/url-path.js';
 import { ResetPasswordForm } from '../pages/reset-password-form.js';
 import { importJsonTestData as loadTestData } from '../utils/test-utils.js';
 

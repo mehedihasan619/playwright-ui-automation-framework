@@ -1,6 +1,6 @@
 import { test } from '@playwright/test';
 import { importJsonTestData as loadTestData } from '../utils/test-utils.js';
-import * as URLs from '../utils/constants';
+import * as URLs from './url-path.js';
 
 const test_data = await loadTestData();
 

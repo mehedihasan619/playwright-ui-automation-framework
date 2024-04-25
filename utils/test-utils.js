@@ -1,6 +1,6 @@
 import { readFile } from 'fs/promises';
 
-// Write your test helpers functions here
+// Write all your test helper functions here
 
 //Function to load the json test data
 export const importJsonTestData = async () => {
