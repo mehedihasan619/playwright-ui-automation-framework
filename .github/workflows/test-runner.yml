@@ -1,7 +1,8 @@
 name: Playwright Test Runner
 on:
-  schedule:
-    - cron: 0 7 * * 1-5 #Run the job at 7AM UTC Mon - Friday
+  workflow_dispatch:
+    #set to 'schedule' for cron job
+    # - cron: 0 7 * * 1-5 #Run the job at 7AM UTC Mon - Friday
 jobs:
   test:
     timeout-minutes: 10
